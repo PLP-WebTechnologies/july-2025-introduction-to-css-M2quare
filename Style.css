@@ -1,0 +1,87 @@
+/*  
+   Global Styles
+  */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/*  
+   Header
+  */
+.site-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #2e7d32;
+}
+
+/*  
+   Introduction Section
+  */
+.intro {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/*  
+   Card Section
+  */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card {
+    background-color: #e3f2fd;
+    border: 2px solid #64b5f6;
+    border-radius: 8px;
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+}
+
+/*  
+   Call-To-Action Section
+  */
+.cta {
+    background-color: #fff3e0;
+    margin: 20px;
+    padding: 20px;
+    border: 2px dashed #ff9800;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #e68900;
+}
+
+/*  
+   Footer
+  */
+.site-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 4px solid #111;
+}
